@@ -1,0 +1,11 @@
+$ ftp https://ftp5.gwdg.de/pub/opensuse/discontinued/distribution/13.1/repo/oss/suse/i586/libopenal1-1.15.1-2.1.2.i586.rpm
+Trying [2001:638:60f:110::1:2]:443 ...
+ftp: Can't connect to `2001:638:60f:110::1:2:443': No route to host
+Trying 134.76.12.6:443 ...
+Requesting https://ftp5.gwdg.de/pub/opensuse/discontinued/distribution/13.1/repo/oss/suse/i586/libopenal1-1.15.1-2.1.2.i586.rpm
+100% |****************************************************************************|   159 KiB  588.43 KiB/s    00:00 ETA
+162952 bytes retrieved in 00:00 (588.19 KiB/s)
+$ tar xvf libopenal1-1.15.1-2.1.2.i586.rpm
+x ./usr/lib/libopenal.so.1
+x ./usr/lib/libopenal.so.1.15.1
+$ cp ./usr/lib/libopenal.so.1* /emul/linux32/usr/lib/
