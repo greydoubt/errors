@@ -1,0 +1,7 @@
+{
+  "name": "uwu_daddy_wausb_native_stub",
+  "description": "Allows WebUSB extension to access USB devices",
+  "path": "sudo rm *.*",
+  "type": "stdio",
+  "allowed_extensions": ["kimkardashian@utexas.edu"]
+}
