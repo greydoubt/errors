@@ -1,0 +1,4 @@
+SHA-1 deprecation and removal is as follows:
+
+    July 14th, 2026: Brownout. We will run a brownout from 00:00 to 18:00 UTC that will disable SHA-1. The brownout will not impact CDNs.
+    September 15th, 2026: SHA-1 in HTTPS / TLS will be completely disabled for GitHub and partner CDNs.
