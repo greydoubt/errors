@@ -1,0 +1,6 @@
+
+0s
+Run cmake -B /home/runner/work/battletoads/battletoads/build -DCMAKE_CXX_COMPILER=g++ -DCMAKE_C_COMPILER=gcc -DCMAKE_BUILD_TYPE=Release -S /home/runner/work/battletoads/battletoads
+CMake Error: The source directory "/home/runner/work/battletoads/battletoads" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.
+Error: Process completed with exit code 1.
