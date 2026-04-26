@@ -2,6 +2,14 @@
 
 
 
+A fault is an exception that occurs during an instruction and that leaves the registers and memory in a consistent state such that elimination of the fault condition and restarting the instruction will give correct results. After an instruction faults, the PC saved on the stack points to the instruction that faulted. 
+
+A trap is an exception that occurs at the end of the instruction that caused the exception. Therefore the PC saved on the stack is the address of the next instruction that would normally have been executed.
+
+The VAX Architecture Reference Manual, ``Exceptions and Interrupts''
+
+
+
 System Requirements
 
 Support tools for this site
