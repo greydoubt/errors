@@ -1,0 +1,19 @@
+Non-Kerberos-specific Codes
+         GSS_KRB5_S_G_BAD_SERVICE_NAME
+                 /* "No @ in SERVICE-NAME name string" */
+         GSS_KRB5_S_G_BAD_STRING_UID
+                 /* "STRING-UID-NAME contains nondigits" */
+         GSS_KRB5_S_G_NOUSER
+                 /* "UID does not resolve to username" */
+         GSS_KRB5_S_G_VALIDATE_FAILED
+                 /* "Validation error" */
+         GSS_KRB5_S_G_BUFFER_ALLOC
+                 /* "Couldn’t allocate gss_buffer_t data" */
+         GSS_KRB5_S_G_BAD_MSG_CTX
+                 /* "Message context invalid" */
+         GSS_KRB5_S_G_WRONG_SIZE
+                 /* "Buffer is the wrong size" */
+         GSS_KRB5_S_G_BAD_USAGE
+                 /* "Credential usage type is unknown" */
+         GSS_KRB5_S_G_UNKNOWN_QOP
+                 /* "Unknown quality of protection specified" */
